@@ -9,7 +9,10 @@ Our second function, get_businesses, uses the keyword and location that a user e
 
 We also try a little data visualization. We create a map with the folium package to show marks of the restaurants in the data frame.
 
-After a table of listings is presented to our user, we nicely ask if the results are satisfactory. If the answer if no, the function further_rec will recommend 10 more restaurants in the same cuisine category in the same location. 
+After a table of listings is presented to our user, we nicely ask if the results are satisfactory. If the answer if no, the function further_rec will recommend 10 more restaurants in the same cuisine category in the same location.
+
+However, the scraping method we are using is limited in the number of requests. That is why we tried to implement an alternative method and exploit the yelp api key provided by Yelp at the creation of an account. The function webscrapingYelp() is creating a dataframe based on the research keywords that we input
+
 
 Installation: 
 Below are packages we use.
