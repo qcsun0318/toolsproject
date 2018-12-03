@@ -1,6 +1,7 @@
 This is a tool to scrape restuartant information! 
 ===================================
 We are Group 37 in Section 2. 
+
 Note:When I finalized the notebook that the whole group has been working on, I renamed the file and I mistakenly used the old name after "git add," so the file disappeared from our repository. Then I pushed the file using the right name but now there's only one contributor of this "new" file. You can check our commits history to see everyone's work on the repo history.
 
 Description: 
